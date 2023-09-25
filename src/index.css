@@ -22,7 +22,7 @@ h1 {
 }
 
 #content {
-  max-width: min(1280px, calc(95% - 1rem));
+  max-width: min(1100px, calc(95% - 1rem));
   margin-inline: auto;
   margin-top: 1rem;
 }
