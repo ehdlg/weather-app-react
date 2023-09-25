@@ -1,0 +1,57 @@
+/* Header.css */
+
+header {
+  background-color: #f0f0f0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.user-input {
+  display: flex;
+  align-items: center;
+}
+
+.weather-form {
+  display: flex;
+  margin-right: 10px;
+}
+
+.weather-form input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+
+.weather-form button {
+  padding: 8px 15px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.weather-form button:hover {
+  background-color: #45a049;
+}
+
+.user-input button {
+  padding: 8px 15px;
+  background-color: #008cba;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.user-input button:hover {
+  background-color: #005f66;
+}
