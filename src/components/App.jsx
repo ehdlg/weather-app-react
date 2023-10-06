@@ -26,9 +26,7 @@ function App() {
     try {
       const newWeather = await getWeather(city);
       setWeather(newWeather);
-      console.log(weather);
     } catch (error) {
-      console.log('error');
       setError(error);
     } finally {
       setLoading(false);
