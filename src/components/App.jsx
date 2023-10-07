@@ -3,8 +3,8 @@ import { useState } from 'react';
 import '../App.css';
 import Weather from './Weather';
 import Header from './Header';
+import Loading from './Loading';
 import getWeather from '../utils/weather';
-// import PropTypes from 'prop-types';
 
 function App() {
   const [weather, setWeather] = useState(null);
@@ -35,6 +35,7 @@ function App() {
   const handleTempChange = () => {
     setCelsius(!celsius);
   };
+
   return (
     <>
       <Header
@@ -44,7 +45,7 @@ function App() {
         handleTempChange={handleTempChange}
       />
 
-      {loading && <h3>Loading weather...</h3>}
+      {loading && <Loading />}
       {error && <h3>{error.message}</h3>}
       {weather && <Weather weather={weather} city={city} celsius={celsius} />}
     </>
