@@ -46,7 +46,8 @@
 }
 
 @media (max-width: 550px) {
-  body {
-    color: red;
+  .weather-forecast {
+    display: flex;
+    flex-direction: column;
   }
 }
