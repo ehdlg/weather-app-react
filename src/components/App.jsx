@@ -4,6 +4,7 @@ import '../App.css';
 import Weather from './Weather';
 import Header from './Header';
 import Loading from './Loading';
+import Error from './Error';
 import getWeather from '../utils/weather';
 
 function App() {
@@ -46,7 +47,7 @@ function App() {
       />
 
       {loading && <Loading />}
-      {error && <h3>{error.message}</h3>}
+      {error && <Error errorMessage={error.message} />}
       {weather && <Weather weather={weather} city={city} celsius={celsius} />}
     </>
   );

@@ -1,0 +1,14 @@
+.error {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.error p {
+  font-size: 2rem;
+  margin: 1rem;
+}

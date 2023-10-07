@@ -1,9 +1,13 @@
-function Loading() {
+import '../stylesheets/Loading.css'; // Import the CSS
+
+const Loading = () => {
   return (
-    <>
-      <h3>Loading...</h3>
-    </>
+    <div className='loading'>
+      {' '}
+      {/* Use className */}
+      <div className='spinner'></div> {/* Use className */}
+    </div>
   );
-}
+};
 
 export default Loading;

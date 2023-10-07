@@ -4,7 +4,7 @@ import '../stylesheets/Header.css';
 function Header({ city, handleSubmit, handleCityChange, handleTempChange }) {
   return (
     <header>
-      <h1>Weather App</h1>
+      <img src='/weather.svg' alt='' className='logo' />
       <div className='user-input'>
         <form className='weather-form' onSubmit={handleSubmit}>
           <input
