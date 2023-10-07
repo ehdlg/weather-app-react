@@ -44,3 +44,9 @@
   font-weight: bold;
   margin-top: 10px;
 }
+
+@media (max-width: 550px) {
+  body {
+    color: red;
+  }
+}

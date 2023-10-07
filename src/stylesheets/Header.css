@@ -41,3 +41,10 @@ header h1 {
 .user-input button:hover {
   background-color: #005f66;
 }
+
+@media (max-width: 550px) {
+  header {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
